@@ -10,14 +10,7 @@
 </div><!-- /.col-xs-12 -->
 </div><!-- /.row -->
 @endif
-<div>
-        {!!Share::page('https://readerstacks.com', 'Share title',["class"=>"social"])
-            ->facebook()
-            ->twitter()
-            ->linkedin('Extra linkedin summary can be passed here')
-            ->whatsapp();
-        !!}
-</div>
+
 
 <div class="row">
 

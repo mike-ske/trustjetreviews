@@ -37,6 +37,15 @@
                 {{ number_format($review->reviews->avg('rating'),2)  }}/5.00
             </span>
                     </h2>
+                    <div>
+                        {!!Share::page('https://trustjetreviews.com', '{{ $review->business_name }}',["class"=>"social"])
+                            ->facebook()
+                            ->twitter()
+                            ->linkedin($review->business_name)
+                            ->whatsapp();
+                        !!}
+                    </div>
+
                 </div>
                 <!-- /.col-md-5 -->
                 <div class="col-md-4">

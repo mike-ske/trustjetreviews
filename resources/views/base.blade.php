@@ -116,12 +116,21 @@
           }          
           div#social-links ul li a {
               padding: 20px;
-              border: 1px solid #ccc;
               margin: 1px;
-              font-size: 30px;
-              color: #222;
-              background-color: #ccc;
+              font-size: 15px;
+              color: #999;
           }
+          div#social-links ul {
+            display: flex;
+            gap: 10px;
+            align-items: self-start;
+            margin: 0px;
+            padding: 0px;
+          }
+          div#social-links ul li:hover a {
+            color: #222;
+          }
+
       </style>
 
   </head>
