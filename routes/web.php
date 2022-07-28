@@ -1,8 +1,6 @@
 <?php
 
-use App\Sites;
-use App\Reviews;
-use App\Subscriptions;
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Laravel\Socialite\Facades\Socialite;
@@ -41,7 +39,6 @@ Route::get( 'home', function() { return redirect()->route( 'myaccount' ); });
 
 // Reviews Page for Site
 Route::get('reviews/{site}', 'ReviewController@single')->name('reviewsForSite');
-// Route::get('reviews/{site}', 'ReviewController@seoSitePosting')->name('reviewsForSite');
 Route::post( 'process-new-review/{site}', 'ReviewController@takeReview' )->name( 'takeReview' );
 Route::post( 'reviews/replyAsCompany/{review}', 'ReviewController@replyAsCompany' )->name( 'replyAsCompany' );
 

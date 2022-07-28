@@ -38,7 +38,7 @@
             </span>
                     </h2>
                     <div>
-                        {!!Share::page('https://trustjetreviews.com', '{{ $review->business_name }}',["class"=>"social"])
+                        {!!Share::page('https://'.$review->url, $review->business_name,["class"=>"social"])
                             ->facebook()
                             ->twitter()
                             ->linkedin($review->business_name)
@@ -261,11 +261,11 @@
 
                     <h3>{{ __( 'Embed Badge' )}}</h3>
                     
-                    {{-- <iframe src="{{ route('embeddedScore', ['site' => $review]) }}" frameborder="0" width="250" height="150" scrolling="no"/></iframe> --}}
+                     <iframe src="{{ route('embeddedScore', ['site' => $review]) }}" frameborder="0" width="250" height="150" scrolling="no"></iframe>
                     
                     <small>
                     {{ __( 'Add to your site' ) }}
-                    {{-- <textarea class="form-control" rows="5"><iframe src="{{ route('embeddedScore', ['site' => $review]) }}" frameborder="0" width="250" height="150" scrolling="no"/></iframe></textarea> --}}
+                    <textarea class="form-control" rows="5"><iframe src="{{ route('embeddedScore', ['site' => $review]) }}" frameborder="0" width="250" height="150" scrolling="no"></iframe></textarea>
                     </small>
                 </div><!-- /.card -->
                 <br>

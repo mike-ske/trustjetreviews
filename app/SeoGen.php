@@ -22,6 +22,7 @@ class SeoGen {
         SEOMeta::setTitle($title=$seo_url->business_name ?? $data['title']);
         SEOMeta::setDescription(isset($data['description'])? $data['description'] : $desc=$seo_url->metadata);
         SEOMeta::addMeta('article:published_time', $seo_url->created_at->toW3CString(), 'property');
+        SEOMeta::addMeta('og:image', $slug->screenshot, 'property');
         // SEOMeta::addKeyword($keywords=$seo_url->keywords ?? $data['keywords']);
 
         OpenGraph::setDescription(isset($data['description'])? $data['description'] : $desc=$seo_url->metadata);
@@ -29,6 +30,7 @@ class SeoGen {
         OpenGraph::setUrl('https://localhost:8000/reviews/'.$seo_url->slug);
         OpenGraph::addProperty('type', "website");
         OpenGraph::addProperty('locale', 'en-US');
+        OpenGraph::addProperty('image', $slug->screenshot);
         OpenGraph::addImage($img='no image' ?? $data['image']);
 
         Twitter::setTitle($title=$seo_url->business_name ?? $data['title']);

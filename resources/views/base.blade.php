@@ -115,7 +115,7 @@
               display: inline-block;
           }          
           div#social-links ul li a {
-              padding: 20px;
+              padding: 4px;
               margin: 1px;
               font-size: 15px;
               color: #999;

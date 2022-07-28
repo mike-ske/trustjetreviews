@@ -33,6 +33,7 @@ class ReviewController extends Controller
                             ->orderByDesc( 'id' )
                             ->paginate(10);
 
+                            dd($review);
     	// get average rating
     	$averageRating = @number_format($reviews->avg( 'rating' ), 2) ?? 0.00;
 

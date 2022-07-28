@@ -55,6 +55,7 @@
                 <span class="text-muted float-left">
                     {{ $r->timeAgo  }}
                 </span>
+                
                 <a href="{{ $r->site->slug }}" class="btn btn-sm inline btn-success float-right">
                     &raquo; {{ __('Read Review') }}
                 </a>
