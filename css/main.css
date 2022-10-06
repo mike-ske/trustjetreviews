@@ -1,0 +1,34 @@
+
+#srht {
+    overflow:hidden;
+}
+#srht #srht_img{
+   -webkit-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+#srht #srht_img:hover{
+    transform: scale(1.1);
+}
+.card_bx{
+   -webkit-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+.card_bx:hover{
+    transform: scale(1.1);
+}
+
+
+#logincont {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rowlog {
+    width: 100%;
+}

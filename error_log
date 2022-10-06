@@ -1,0 +1,9 @@
+[26-Jul-2022 10:11:27 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.30. in /home2/trustjetreviews/public_html/vendor/composer/platform_check.php on line 24
+[29-Jul-2022 18:39:19 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[29-Jul-2022 18:39:26 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[29-Jul-2022 18:41:42 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[29-Jul-2022 18:43:11 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[29-Jul-2022 18:43:14 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[29-Jul-2022 18:43:19 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[29-Jul-2022 18:47:12 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home2/trustjetreviews/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[30-Jul-2022 01:01:03 Europe/London] PHP Fatal error:  Can't use method return value in write context in /home2/trustjetreviews/public_html/storage/framework/views/3be54691759cce619e1a2bbf50cfbc2d2821af82.php on line 54

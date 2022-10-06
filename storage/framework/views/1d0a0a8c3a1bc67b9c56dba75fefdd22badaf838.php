@@ -1,0 +1,1 @@
+    <?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/app.local/resources/views/components/add-new-site.blade.php ENDPATH**/ ?>
